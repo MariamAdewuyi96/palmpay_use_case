@@ -1,0 +1,16 @@
+There are no Data pipeline, data warehouse which means there is no centralized data 
+system where data move from the source database to the warehouse where the analyst
+and finance team get user ready data for analytics and exploration.
+
+The analyst and finance team extracts data directly from the database which isn't ideal.
+
+
+Would build a centralized data pipeline where data flows from the source database to
+warehouse where analyst get clean, user ready data from to build dashboards.
+
+The warehouse also solves the issue of not having historical data for investors to 
+look at historical
+trends.
+
+I will introduce job orchestration using Airflow to automate pipeline execution, 
+manage task dependencies and ensure consistent scheduled data workflow.
